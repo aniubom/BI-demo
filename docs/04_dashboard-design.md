@@ -87,6 +87,7 @@ Acceptance Criteria: Display lapsed policies grouped by product type
       | Product Type |
       | Count of Lapsed Policies |
       | Percentage of Total Lapsed Policies |  
+      
   → Bar chart of lapsed policies by product
 
 **Feature: View high-level portfolio metrics**
@@ -103,11 +104,10 @@ Then I should see the following values:
   Total Active Policies       
   Average Premium             
   Average Policy Duration    
-When I 
-Then I should be able to view a line chart of total monthly premiums
-When I
-Then I should be able to filter by product type and policy status
-  → KPI section + premium trend line
+When I scroll to the premium trends section
+Then I should be able to view a line chart displaying total monthly premiums
+
+→ KPI section + premium trend line
 
 
 **Feature: Explore customer demographics**
@@ -124,8 +124,6 @@ Then I should see:
   A bar chart grouped by age bracket        
   A pie chart showing gender split          
   A map showing customer count by state     
-When I
-Then I should be able to apply filters for policy status and premium tier ??
 
   → Demographic section
 
