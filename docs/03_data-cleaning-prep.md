@@ -32,7 +32,10 @@ Used to calculate the number of days a policy was active (or expected to remain 
 
 - **`premium_tier`**  
 
-ifelse( {premium} < 100, 'Low', ifelse({premium} <= 499, 'Medium', 'High') )
+ifelse(
+  {premium} < 100, 'Low',
+  ifelse({premium} <= 499, 'Medium', 'High')
+)
 
 Bucketed premium amounts into categories for easier filtering and analysis.
 
