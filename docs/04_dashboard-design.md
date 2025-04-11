@@ -4,12 +4,6 @@ This document outlines the layout, visualization choices, and design decisions b
 
 ---
 
-## Dashboard Objective
-
-The goal of the dashboard is to help BetaLife leadership and product teams gain a clear, real-time view of life insurance policy performance. The dashboard supports analysis of policy activity, premium volume, customer demographics, and lapse trends.
-
----
-
 ## Layout Overview
 
 The dashboard is organized into the following sections:
@@ -78,9 +72,9 @@ These KPIs are displayed at the top for quick, at-a-glance status.
 
 **View lapsed policies by product type**
   
-- As a Product Manager
-  I want to be able to view how many policies are lapsing by product type
-  So that I can identify which products need retention strategy improvements
+As a Product Manager
+I want to be able to view how many policies are lapsing by product type
+So that I can identify which products need retention strategy improvements
 
 Acceptance Criteria: Display lapsed policies grouped by product type
   
