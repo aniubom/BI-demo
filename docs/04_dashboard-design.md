@@ -77,7 +77,6 @@ So that I can identify which products need retention strategy improvements.
 **Acceptance Criteria: Display lapsed policies by product type**
 
 ```
-
 Given I am viewing the BetaLife dashboard
 When I select the "Policy Status" filter with values 'Lapsed' and 'Canceled'
 And I group the data by product type
@@ -99,7 +98,6 @@ So that I can Identify trends without exporting from Excel
 **Acceptance Criteria: Display top-level KPIs and premium trends**
 
 ```
-
 Given I am on the BetaLife dashboard
 When I load the KPI section
 Then I should see the following values:
