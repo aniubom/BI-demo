@@ -2,7 +2,24 @@
 
 This document outlines the layout, visualization choices, and design decisions behind the BetaLife Life Insurance Policy Dashboard built in AWS QuickSight.
 
+The dashboard was designed as a self-service analytics tool for product managers and leadership at BetaLife to:
+
+- Monitor the performance of their life insurance offerings
+- Track trends in customer behavior and policy activity
+- Make informed decisions around product strategy, retention, and customer segmentation
+
+It eliminates the need to manually export reports or wrangle spreadsheets.
+
 ---
+
+## How the Dashboard is Used
+
+- Filter by product type to compare lapse trends and premium performance
+- Identify which products underperform based on lapse rate or low premium revenue
+- Monitor how different segments (e.g. age, location) respond to each insurance offering
+- Use KPI summary to report on active policy volume, premium health, and policy age
+- Track premium trends across months to spot seasonal patterns or churn risks
+- Drill down into customer segments to support targeting or retention campaigns
 
 ## Layout Overview
 
