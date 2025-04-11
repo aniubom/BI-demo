@@ -84,9 +84,9 @@ Then I should see a bar chart showing the count of lapsed policies for each prod
 
 When I hover over any bar in the chart
 Then I should see a tooltip displaying:
-      | Product Type |
-      | Count of Lapsed Policies |
-      | Percentage of Total Lapsed Policies |
+- Product Type 
+- Count of Lapsed Policies 
+- Percentage of Total Lapsed Policies
 ```
 
 
@@ -102,9 +102,9 @@ So that I can Identify trends without exporting from Excel
 Given I am on the BetaLife dashboard
 When I load the KPI section
 Then I should see the following values:
-  Total Active Policies       
-  Average Premium             
-  Average Policy Duration    
+- Total Active Policies       
+- Average Premium             
+- Average Policy Duration    
 When I scroll to the premium trends section
 Then I should be able to view a line chart displaying total monthly premiums
 ```
@@ -120,11 +120,10 @@ So that I can segment marketing efforts
 Given I am on the BetaLife dashboard
 When I view the demographics section
 Then I should see:
-  A bar chart grouped by age bracket        
-  A pie chart showing gender split          
-  A map showing customer count by state     
+- A bar chart grouped by age bracket        
+- A pie chart showing gender split          
+- A map showing customer count by state     
 
 
----
 
 
