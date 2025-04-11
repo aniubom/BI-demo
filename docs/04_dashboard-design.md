@@ -87,8 +87,8 @@ Then I should see a tooltip displaying:
       | Product Type |
       | Count of Lapsed Policies |
       | Percentage of Total Lapsed Policies |
+```
 
----
 
 ## Sample User Story: View high-level portfolio metrics
 
@@ -107,7 +107,7 @@ Then I should see the following values:
   Average Policy Duration    
 When I scroll to the premium trends section
 Then I should be able to view a line chart displaying total monthly premiums
-
+```
 ## Sample User Story: Explore customer demographics
 
 As a Product Manager
