@@ -82,22 +82,23 @@ Given I am viewing the BetaLife dashboard
 When I select the "Policy Status" filter with values 'Lapsed' and 'Canceled'
 And I group the data by product type
 Then I should see a bar chart showing the count of lapsed policies for each product type
+
 When I hover over any bar in the chart
 Then I should see a tooltip displaying:
       | Product Type |
       | Count of Lapsed Policies |
       | Percentage of Total Lapsed Policies |
-  
-      
-  → Bar chart of lapsed policies by product
 
-**Feature: View high-level portfolio metrics**
+      
+## Sample User Story: View high-level portfolio metrics
 
 As a Product Manager
 I want to be able to view a snapshot of active policies, average premium, and policy duration
 So that I can Identify trends without exporting from Excel
 
-Acceptance Criteria: Display top-level KPIs and premium trends
+**Acceptance Criteria: Display top-level KPIs and premium trends**
+
+```
 
 Given I am on the BetaLife dashboard
 When I load the KPI section
@@ -108,17 +109,15 @@ Then I should see the following values:
 When I scroll to the premium trends section
 Then I should be able to view a line chart displaying total monthly premiums
 
-→ KPI section + premium trend line
-
-
-**Feature: Explore customer demographics**
+## Sample User Story: Explore customer demographics
 
 As a Product Manager
 I want to be able to analyze our customer base by age, location, and gender
 So that I can segment marketing efforts
 
-Acceptance Criteria: Display demographic breakdowns
+**Acceptance Criteria: Display demographic breakdowns**
 
+```
 Given I am on the BetaLife dashboard
 When I view the demographics section
 Then I should see:
@@ -126,7 +125,6 @@ Then I should see:
   A pie chart showing gender split          
   A map showing customer count by state     
 
-  → Demographic section
 
 ---
 
