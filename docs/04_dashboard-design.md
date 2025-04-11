@@ -92,9 +92,9 @@ Then I should see a tooltip displaying:
 
 ## Sample User Story: View high-level portfolio metrics
 
-As a Product Manager
-I want to be able to view a snapshot of active policies, average premium, and policy duration
-So that I can Identify trends without exporting from Excel
+As a Product Manager,
+I want to be able to view a snapshot of active policies, average premium, and policy duration,
+So that I can Identify trends without exporting from Excel.
 
 **Acceptance Criteria: Display top-level KPIs and premium trends**
 
@@ -110,9 +110,9 @@ Then I should be able to view a line chart displaying total monthly premiums
 ```
 ## Sample User Story: Explore customer demographics
 
-As a Product Manager
-I want to be able to analyze our customer base by age, location, and gender
-So that I can segment marketing efforts
+As a Product Manager,
+I want to be able to analyze our customer base by age, location, and gender,
+So that I can segment marketing efforts.
 
 **Acceptance Criteria: Display demographic breakdowns**
 
