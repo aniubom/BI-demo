@@ -68,25 +68,26 @@ These KPIs are displayed at the top for quick, at-a-glance status.
 
 ---
 
-## Sample User Story 
+## Sample User Story: View lapse trends by product type
 
-**View lapsed policies by product type**
-  
-As a Product Manager
-I want to be able to view how many policies are lapsing by product type
-So that I can identify which products need retention strategy improvements
+As a Product Manager,  
+I want to see how many policies are lapsing by product type,  
+So that I can identify which products need retention strategy improvements.
 
-Acceptance Criteria: Display lapsed policies grouped by product type
-  
-  Given I am viewing the BetaLife dashboard
-  When I select the "Policy Status" filter with values 'Lapsed' and 'Canceled'
-  And I group policies by product type
-  Then I should be able to view a bar chart showing the count of lapsed policies for each product type
-  When I hover over any bar in the bar chart
-  Then I should be able to see a tolltip displaying the following:
+```gherkin
+Acceptance Criteria: View lapse trends by product type
+
+  Scenario: Display lapsed policies by product type
+    Given I am viewing the BetaLife dashboard
+    When I select the "Policy Status" filter with values 'Lapsed' and 'Canceled'
+    And I group the data by product type
+    Then I should see a bar chart showing the count of lapsed policies for each product type
+    When I hover over any bar in the chart
+    Then I should see a tooltip displaying:
       | Product Type |
       | Count of Lapsed Policies |
-      | Percentage of Total Lapsed Policies |  
+      | Percentage of Total Lapsed Policies |
+  
       
   → Bar chart of lapsed policies by product
 
