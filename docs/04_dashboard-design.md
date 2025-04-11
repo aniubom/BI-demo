@@ -74,14 +74,16 @@ As a Product Manager,
 I want to see how many policies are lapsing by product type,  
 So that I can identify which products need retention strategy improvements.
 
-Acceptance Criteria: Display lapsed policies by product type
+**Acceptance Criteria: Display lapsed policies by product type**
 
-Given I am viewing the BetaLife dashboard,
-When I select the "Policy Status" filter with values 'Lapsed' and 'Canceled',
-And I group the data by product type,
-Then I should see a bar chart showing the count of lapsed policies for each product type,
-When I hover over any bar in the chart,
-Then I should see a tooltip displaying:,
+```
+
+Given I am viewing the BetaLife dashboard
+When I select the "Policy Status" filter with values 'Lapsed' and 'Canceled'
+And I group the data by product type
+Then I should see a bar chart showing the count of lapsed policies for each product type
+When I hover over any bar in the chart
+Then I should see a tooltip displaying:
       | Product Type |
       | Count of Lapsed Policies |
       | Percentage of Total Lapsed Policies |
