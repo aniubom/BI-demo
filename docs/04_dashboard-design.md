@@ -88,7 +88,8 @@ Then I should see a tooltip displaying:
       | Count of Lapsed Policies |
       | Percentage of Total Lapsed Policies |
 
-      
+---
+
 ## Sample User Story: View high-level portfolio metrics
 
 As a Product Manager
