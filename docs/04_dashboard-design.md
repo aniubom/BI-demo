@@ -106,6 +106,8 @@ Then I should see a tooltip displaying:
 - Percentage of Total Lapsed Policies
 ```
 
+![Lapsed Policies %](https://github.com/aniubom/BI-demo/blob/main/visuals/lapsed-policies-by-product-type.png?raw=true)
+
 
 ## Sample User Story: View high-level portfolio metrics
 
