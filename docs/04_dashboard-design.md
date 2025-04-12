@@ -148,7 +148,8 @@ Then I should see:
 - A bar chart grouped by age bracket        
 - A pie chart showing gender split          
 - A map showing customer count by state     
-
-
-
+```
+![Customer by Age Bracket](../visuals/demographics-age-bracket.png)  
+![Customer by Gender](../visuals/demographics-gender-split.png)  
+![Customer Map](../visuals/demographics-customer-map.png)
 
