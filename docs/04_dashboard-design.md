@@ -112,8 +112,8 @@ Then I should see a tooltip displaying:
 ## Sample User Story: View high-level portfolio metrics
 
 As a Product Manager,  
-I want to be able to view a snapshot of active policies, average premium, and policy duration,  
-So that I can Identify trends without exporting from Excel.  
+I want to be able to view key peformance metrics,    
+So that I can identify trends without relying on manual exports.    
 
 **Acceptance Criteria: Display top-level KPIs and premium trends**
 
