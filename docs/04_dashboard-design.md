@@ -14,74 +14,57 @@ It eliminates the need to manually export reports or wrangle spreadsheets.
 
 ## How the Dashboard is Used
 
-- Filter by product type to compare lapse trends and premium performance
-- Identify which products underperform based on lapse rate or low premium revenue
-- Monitor how different segments (e.g. age, location) respond to each insurance offering
-- Use KPI summary to report on active policy volume, premium health, and policy age
-- Track premium trends across months to spot seasonal patterns or churn risks
-- Drill down into customer segments to support targeting or retention campaigns
+The dashboard is structured into three focused sections, each designed to align with a stakeholder need:
+
+---
+
+### Lapse Trends by Product Type
+- Quickly identify which product types have the highest percentage of lapsed or canceled policies
+- Use this to prioritize retention strategy by product
+- Hover over bars to see both raw count and percentage of lapsed policies
+
+---
+
+### High-Level Portfolio Metrics
+- Monitor active policy volume, average premiums, and average policy duration at a glance
+- Use the line chart to track monthly premium trends and spot seasonal dips or spikes
+- Helpful for executives and product managers needing top-level insights without exports
+
+---
+
+### Customer Demographics
+- Understand your customer base by age, gender, and location
+- Segment and target marketing campaigns based on demographic breakdowns
+- Visualize regional distribution of customers using a filled state map
+
+---
 
 ## Layout Overview
 
 The dashboard is organized into the following sections:
 
-### 1. **KPI Summary**
-- **Total Active Policies**
-- **Avg. Monthly Premium**
-- **Total Policies Lapsed**
-- **Avg. Policy Duration**
-
-These KPIs are displayed at the top for quick, at-a-glance status.
+### 1. Lapse Trends by Product Type  
+**Purpose**: Identify which insurance products contribute most to policy churn.  
+**Visual**: Horizontal bar chart showing % of lapsed or canceled policies per product type, with tooltips showing both percentage and raw count.
 
 ---
 
-### 2. **Product Type Distribution**
-- **Visual**: Donut chart
-- **Purpose**: Show share of Term, Whole, and Universal policies
+### 2. High-Level Portfolio Metrics  
+**Purpose**: Provide at-a-glance KPIs and trends to assess portfolio health.  
+**Visuals**:
+- KPI: **Total Active Policies**
+- KPI: **Average Premium**
+- KPI: **Average Policy Duration**
+- Line Chart: **Monthly Premium Trends**
 
 ---
 
-### 3. **Premium Trends Over Time**
-- **Visual**: Line chart
-- **X-axis**: Month (derived from `start_date`)
-- **Y-axis**: Total premium collected
-- **Purpose**: Highlight seasonality, growth, or retention trends
-
----
-
-### 4. **Lapse Rate by Product Type**
-- **Visual**: Horizontal bar chart
-- **X-axis**: Count of lapsed policies
-- **Y-axis**: Product type
-- **Purpose**: Identify which products are underperforming in retention
-
----
-
-### 5. **Customer Demographics**
-- **Visuals**:
-  - Age bucket distribution (bar chart)
-  - Gender split (pie chart)
-  - State-level spread (geo map)
-- **Purpose**: Provide leadership a high-level customer segmentation view
-
----
-
-### 6. **Filters & Interactivity**
-- **Filters Used**:
-  - Product Type
-  - Policy Status
-  - Premium Tier
-  - Date Range
-- **Purpose**: Allow users to explore policies by segment
-
----
-
-## Design Considerations
-
-- **Color**: Used a clean, minimal palette to align with professional insurance reporting dashboards
-- **Hierarchy**: KPIs positioned at the top, followed by trends and comparisons
-- **Consistency**: Reused axis labels, grouped visuals by topic
-- **Responsiveness**: SPICE-backed visuals refresh quickly to support interactivity
+### 3. Customer Demographics  
+**Purpose**: Enable marketing segmentation based on who and where customers are.  
+**Visuals**:
+- Bar Chart: **Customer Count by Age Bracket**
+- Pie Chart: **Customer Distribution by Gender**
+- Filled Map: **Customer Count by State**
 
 ---
 
