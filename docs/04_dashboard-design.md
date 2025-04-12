@@ -97,7 +97,7 @@ So that I can identify which products need retention strategy improvements.
 Given I am viewing the BetaLife dashboard
 When I select the "Policy Status" filter with values 'Lapsed' and 'Canceled'
 And I group the data by product type
-Then I should see a bar chart showing the count of lapsed policies for each product type
+Then I should see a horizontal bar chart showing the percentage of lapsed policies across product types.  
 
 When I hover over any bar in the chart
 Then I should see a tooltip displaying:
