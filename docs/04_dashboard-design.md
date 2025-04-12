@@ -127,6 +127,12 @@ Then I should see the following values:
 When I scroll to the premium trends section
 Then I should be able to view a line chart displaying total monthly premiums
 ```
+![Total Active Policies](../visuals/kpis-total-active.png)  
+![Average Premium](../visuals/kpis-avg-premium.png)  
+![Average Policy Duration](../visuals/kpis-avg-duration.png)  
+![Total Monthly Premiums](../visuals/line-monthly-premiums.png)
+
+
 ## Sample User Story: Explore customer demographics
 
 As a Product Manager,  
