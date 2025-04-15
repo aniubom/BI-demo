@@ -43,7 +43,4 @@ Located in `/data/`
 
 [Loom Video: Dashboard + Thought Process](paste-your-link-here)
 
-## ✍️ Author
 
-Aniema Ubom  
-[LinkedIn](https://www.linkedin.com/in/aniemaubom) | [Portfolio](https://aubom.online)
