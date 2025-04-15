@@ -65,12 +65,6 @@ Extracted `Year` and `Month` components for trend-based visualizations.
 
 ---
 
-## SPICE Import
 
-After cleaning and transforming, the data was imported into QuickSight's SPICE engine to allow:
-
-- Faster performance with large joins and filters
-- Support for scheduled refreshes
-- Lightweight column-level calculations
 
 
