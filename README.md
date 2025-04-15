@@ -2,11 +2,11 @@
 
 Dashboard project built in AWS QuickSight to visualize life insurance policy trends, customer demographics, and premium performance. This is a personal portfolio project simulating the development of an internal dashboard, focused on life insurance policy analytics.
 
-## 🎯 Project Goal
+## Project Goal
 
 To build a QuickSight dashboard that visualizes key metrics around life insurance products such as policy activity, premiums, lapse trends, and customer demographics.
 
-## 🛠️ Tools Used
+## Tools Used
 
 - AWS QuickSight
 - AWS IAM Identity Center
@@ -14,22 +14,13 @@ To build a QuickSight dashboard that visualizes key metrics around life insuranc
 - Python (mock data generation)
 - GitHub (project documentation)
 
-## 📁 Datasets
+## Datasets
 
 Located in `/data/`
 
 - `policies.csv` - policy-level data including product type, premium, and status
 - `customers.csv` - customer demographics (age, gender, location)
 - `payments.csv` - transaction-level payment data tied to policies
-
-## 🔄 Data Prep Highlights
-
-- Joined customer + policy + payment datasets
-- Created calculated fields:
-  - `policy_duration` = `end_date` - `start_date`
-  - `premium_tier` = bucketed based on premium amount
-- Cleaned and formatted date fields
-- Removed PII for demo purposes
 
 ## 📊 Dashboard Features
 
