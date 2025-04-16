@@ -32,6 +32,6 @@ Located in `/data/`
 
 ## 📹 Loom Walkthrough
 
-[Loom Video: Dashboard + Thought Process](paste-your-link-here)
+[Loom Video: Dashboard + Thought Process](https://www.loom.com/share/c055bc5c4e124cf28c17020a47703f49?sid=9c7cc713-6046-47d4-b369-79d519dedc58)
 
 
