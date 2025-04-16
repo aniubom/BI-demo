@@ -21,7 +21,7 @@
 
 ---
 
-## 🧠 Problem-Solving Approach
+## Problem-Solving Approach
 1. Start with the stakeholder’s need
 2. Reverse-engineer required data
 3. Design the best visual to answer it
@@ -30,7 +30,7 @@
 
 ---
 
-## ⚠️ Challenges I Faced
+## Challenges I Faced
 - `payment_date` text → used `parseDate()` + `truncDate()`
 - KPI styling limits → leaned into clarity and font consistency
 - State code misread → manually set geographic type
