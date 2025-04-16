@@ -35,6 +35,6 @@
 - KPI styling limits → leaned into clarity and font consistency
 - State code misread → manually set geographic type
 - SPICE refresh bugs → re-mapped fields, revalidated visuals
-- AWS configuration setup issues !!!
+- AWS configuration issues
 
 ---
